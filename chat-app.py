@@ -1,12 +1,3 @@
-
-# How to add Memory to a chatbot
-'''
-Instead of treating every message as new, we will:
-✅ Store chat history.
-✅ Pass previous messages as context.
-✅ Use LangChain (a popular framework for LLM-based chatbots).
-'''
-
 from transformers import AutoModelForCausalLM, AutoTokenizer
 from langchain.memory import ConversationBufferMemory
 import torch
